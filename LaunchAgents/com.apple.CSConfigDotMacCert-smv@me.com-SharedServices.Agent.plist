@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.CSConfigDotMacCert-smv@me.com-SharedServices</string>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>LowPriorityIO</key>
+	<true/>
+	<key>Nice</key>
+	<integer>10</integer>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Versions/A/Support/CSConfigDotMacCert</string>
+		<string>-l</string>
+		<string>/Users/smv/Library/Logs/CSConfigDotMacCert.log</string>
+		<string>-u</string>
+		<string>smv@me.com</string>
+		<string>-t</string>
+		<string>SharedServices</string>
+		<string>-s</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>
